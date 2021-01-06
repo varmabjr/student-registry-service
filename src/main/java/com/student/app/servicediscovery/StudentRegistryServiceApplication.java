@@ -13,6 +13,7 @@ public class StudentRegistryServiceApplication {
 
 	public static void main(String[] args) {
 		log.info("Inside the main method");
+		log.info("added dockerfile");
 		SpringApplication.run(StudentRegistryServiceApplication.class, args);
 	}
 
